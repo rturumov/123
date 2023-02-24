@@ -3,7 +3,7 @@ class Shape:
         print(0)
 
 class Square(Shape):
-    def init(self,length):
+    def __init__(self,length):
         self.length = length
     
     def area2(self):

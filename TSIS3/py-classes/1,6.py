@@ -16,10 +16,6 @@ class Prime():
             if (m - 2) == k:
                 print(x)
 
-x = int(input())
-y = int(input())
-z = int(input())
-d = int(input())
-thelist = list((x, y, z, d))
+thelist = list(map(int, input().split(' ')))
 a = Prime(thelist)
 a.filter()
