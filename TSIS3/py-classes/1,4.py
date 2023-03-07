@@ -23,9 +23,3 @@ a.show()
 a.move()
 a.show()
 a.dist()
-
-
-
-
-
-
